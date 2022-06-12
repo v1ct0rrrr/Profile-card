@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500;600;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body
+{ 
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card
+{
+    position: relative;
+    z-index: 1;
+    width: 330px;
+    height: 340px;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 9.3rem auto;
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card > img
+{
+    width: 330px;
+    border-radius: 0.6rem 0.6rem 0 0;
+}
+
+div.people
+{
+    position: relative;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.people > img
+{
+    position: absolute;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem auto;
+}
+
+.name h1
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.name b
+{
+    margin-left: 0.3rem;
+    font-weight: 500;
+    font-size: 17px;
+    color: hsl(0, 0%, 59%);
+}
+
+.name h4
+{
+    margin-top: 0.3rem;
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.line
+{
+    width: 330px;
+    border: 1px solid rgb(240, 237, 237);
+    position: absolute;
+    bottom: 70px;
+}
+
+.infs
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.infs ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: absolute;
+    right: 3rem;
+    margin-bottom: 1rem;
+}
+.infs ul li
+{
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    padding: 0 0.5rem;
+}
+
+.infs ul li b
+{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 11px;
+    text-align: left;
+}
+
+.circle
+{
+    height: 978px;
+    width: 978px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.circle.top
+{
+    top: -80%;
+    left: -26%;
+    background-image: url(./images/bg-pattern-top.svg);
+}
+
+.circle.bottom
+{
+    bottom: -96.5%;
+    left: 47.5%;
+    background-image: url(./images/bg-pattern-bottom.svg);
+}
+
+/* MEDIA SCREEN */
