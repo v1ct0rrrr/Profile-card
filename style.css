@@ -98,10 +98,10 @@ div.people > img
 }
 
 .infs
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .infs ul
@@ -145,14 +145,14 @@ div.people > img
 {
     top: -80%;
     left: -26%;
-    background-image: url(./images/bg-pattern-top.svg);
+    background-image: url(images/bg-pattern-top.svg);
 }
 
 .circle.bottom
 {
     bottom: -96.5%;
     left: 47.5%;
-    background-image: url(./images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-bottom.svg);
 }
 
 /* MEDIA SCREEN */
